@@ -8,6 +8,9 @@ $my-color-blue: #1EACC7
 *
     font-family: 'Roboto', sans-serif
 
+a
+    text-decoration: none
+
 header
     position: relative
 
@@ -26,6 +29,7 @@ nav
     color: $my-color-white
     font-size: 11px
     font-weight: 300
+    text-align: center
     &_white
         background-color: $my-color-white
         color: #000000
@@ -322,6 +326,91 @@ nav
             color: #FF5656
         li:before
             background: url('../icons/check_red.png') center (center / cover) no-repeat
+
+.world
+    position: relative
+    max-width: 1440px
+    min-height: 716px
+    margin: 0 auto
+    background-color: #080816
+    background: url('../img/world_bg.jpg') center (center / cover) no-repeat
+    padding: 50px 0
+    &_link
+        position: absolute
+        bottom: 21px
+        left: 50%
+        transform: translateX(-50%)
+        padding: 26px 13px
+
+        a
+            font-size: 15px
+            text-align: center
+            text-transform: uppercase
+            text-decoration: none
+            color: #1FBAD6
+
+.footer
+    padding: 11px 0 66px 0
+    &_line
+        width: 300px
+        height: 7px
+        margin: 11px auto 0 auto
+        background-color: $my-color-blue
+    &_wrapper
+        margin-top: 33px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .footer_social
+            width: 296px
+            display: flex
+            // justify-content: space-around
+            align-items: center
+            margin-left: 14px
+            &_item
+                display: flex
+                justify-content: center
+                align-items: center
+                width: 32px
+                height: 32px
+                margin-right: 7px
+                background-color: #000
+                border-radius: 100%
+                color: #fff
+    .footer_links
+        width: 420px
+        &_main
+            display: flex
+            justify-content: space-around
+            align-items: center
+            font-weight: 300
+            font-size: 15px
+            a
+                color: #070716
+        &_sub
+            display: flex
+            justify-content: space-between
+            align-items: center
+            margin-top: 13px
+            a
+                color: #999999
+                font-weight: 300
+                font-size: 11px
+        &_lang
+            font-size: 11px
+            width: 80px
+            margin: 13px auto 0 auto
+            color: #1FBAD6
+            text-align: center
+    .footer_mobile
+        margin-right: 14px
+
+
+
+            
+
+
+        
 
 
 
