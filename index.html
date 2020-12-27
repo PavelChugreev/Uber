@@ -7,7 +7,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="src/css/style.min.css">
 
     <title>UBER </title>
 </head>
@@ -30,7 +30,7 @@
                 <div class="row">
                     <div class="col-md-4 offset-md-1">
                         <a href="#" class="subheader_logo">
-                            <img src="./img/logo.png" alt="logo">
+                            <img src="src/img/logo.png" alt="logo">
                         </a>
                         <div class="subheader_title">Официальный партнер Uber в Москве</div>
                         
@@ -64,15 +64,15 @@
     </section>
     <section class="reason">
         <div class="container">
-             <div class="row">
-                <div class="reason_advantage">ПРЕИМУЩЕСТВА</div>
-                <h2 class="reason_title">8 ПРИЧИН НАЧАТЬ РАБОТАТЬ С НАМИ</h2>
+            <div class="row">
+                <div class="label">ПРЕИМУЩЕСТВА</div>
+                <div class="title">8 ПРИЧИН НАЧАТЬ РАБОТАТЬ С НАМИ</div>
             </div>
             <div class="row">
                 <div class="col-6">
                     <div class="reason_block">
                         <div class="reason_round">
-                            <img src="./icons/reasons/pay.png" alt="pay">
+                            <img src="src/icons/reasons/pay.png" alt="pay">
                         </div>
                         <div class="reason_info">
                             <div class="reason_subtitle">Никаких наличных, оплата происходит автоматически</div>
@@ -81,7 +81,7 @@
                     </div>
                     <div class="reason_block">
                         <div class="reason_round">
-                            <img src="./icons/reasons/cash.png" alt="pay">
+                            <img src="src/icons/reasons/cash.png" alt="cash">
                         </div>
                         <div class="reason_info">
                             <div class="reason_subtitle">Высокий доход с гарантированными выплатами</div>
@@ -90,7 +90,7 @@
                     </div>
                     <div class="reason_block">
                         <div class="reason_round">
-                            <img src="./icons/reasons/key.png" alt="pay">
+                            <img src="src/icons/reasons/key.png" alt="key">
                         </div>
                         <div class="reason_info">
                             <div class="reason_subtitle">Комфортное, прозрачное и простое подключение</div>
@@ -99,7 +99,7 @@
                     </div>
                     <div class="reason_block">
                         <div class="reason_round">
-                            <img src="./icons/reasons/call.png" alt="pay">
+                            <img src="src/icons/reasons/call.png" alt="call">
                         </div>
                         <div class="reason_info">
                             <div class="reason_subtitle">Круглосуточная поддержка</div>
@@ -110,7 +110,7 @@
                 <div class="col-6">
                     <div class="reason_block">
                         <div class="reason_round">
-                            <img src="./icons/reasons/desk.png" alt="pay">
+                            <img src="src/icons/reasons/desk.png" alt="desk">
                         </div>
                         <div class="reason_info">
                             <div class="reason_subtitle">Комиссия 8% + БОНУСЫ</div>
@@ -119,7 +119,7 @@
                     </div>
                     <div class="reason_block">
                         <div class="reason_round">
-                            <img src="./icons/reasons/date.png" alt="pay">
+                            <img src="src/icons/reasons/date.png" alt="date">
                         </div>
                         <div class="reason_info">
                             <div class="reason_subtitle">Работа в удобное время, никаких графиков</div>
@@ -129,7 +129,7 @@
                     </div>
                     <div class="reason_block">
                         <div class="reason_round">
-                            <img src="./icons/reasons/order.png" alt="pay">
+                            <img src="src/icons/reasons/order.png" alt="order">
                         </div>
                         <div class="reason_info">
                             <div class="reason_subtitle">Всегда большое количество заказов</div>
@@ -138,12 +138,59 @@
                     </div>
                     <div class="reason_block">
                         <div class="reason_round">
-                            <img src="./icons/reasons/car.png" alt="pay">
+                            <img src="src/icons/reasons/car.png" alt="car">
                         </div>
                         <div class="reason_info">
                             <div class="reason_subtitle">Без шашечек и наклеек</div>
                             <div class="reason_text">Вам не нужно менять цвет, устанавливать «шашки» на автомобиль и обклеивать его наклейками.</div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mobile">
+        <div class="container">
+            <div class="row">
+                <div class="label">ВОЗМОЖНОСТИ</div>
+                <div class="title">МОБИЛЬНОЕ ПРИЛОЖЕНИЕ УБЕР</div>
+                <div class="subtitle">Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон</div>
+            </div>
+            <div class="row uniq">
+                <div class="col-md-4">
+                    <div class="mobile_item mobile_item_1 ">
+                        <div class="mobile_item_subtitle">оформление заказа одним касанием</div>
+                        <div class="mobile_item_plus"><img src="src/icons/plus.png" alt="plus"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mobile_item mobile_item_2 ">
+                        <div class="mobile_item_subtitle">надежная подача</div>
+                        <div class="mobile_item_plus"><img src="src/icons/plus.png" alt="plus"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mobile_item mobile_item_3 ">
+                        <div class="mobile_item_subtitle">прозрачные цены</div>
+                        <div class="mobile_item_plus"><img src="src/icons/plus.png" alt="plus"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mobile_item mobile_item_4 ">
+                        <div class="mobile_item_subtitle">безналичная оплата</div>
+                        <div class="mobile_item_plus"><img src="src/icons/plus.png" alt="plus"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mobile_item mobile_item_5">
+                        <div class="mobile_item_subtitle">обратная связь</div>
+                        <div class="mobile_item_plus"><img src="src/icons/plus.png" alt="plus"></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mobile_item mobile_item_6 ">
+                        <div class="mobile_item_subtitle">разделить стоимость поездки</div>
+                        <div class="mobile_item_plus"><img src="src/icons/plus.png" alt="plus"></div>
                     </div>
                 </div>
             </div>
