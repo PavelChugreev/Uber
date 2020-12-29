@@ -1,15 +1,6 @@
 a
 	text-decoration: none
 
-header
-	position: relative
-
-nav
-	background-color: #212121
-	position: fixed
-	width: 100%
-	z-index: 2
-
 .label
 	margin: 0 auto
 	height: 24px
@@ -23,7 +14,6 @@ nav
 	&_white
 		background-color: $my-color-white
 		color: #000000
-
 
 .title
 	margin: 33px 0 0 0
@@ -40,7 +30,15 @@ nav
 	text-align: center
 	&_white
 		color: $my-color-white
-	
+
+header
+	position: relative
+
+nav
+	background-color: #212121
+	position: fixed
+	width: 100%
+	z-index: 2
 
 .menu
 	display: flex
@@ -59,6 +57,11 @@ nav
 		font-size: 15px
 		color: $my-color-white
 		text-decoration: none
+.hamburger
+	display: none
+	text-align: end
+	color: #fff
+	padding-top: 11px
 
 .subheader
 	position: absolute
@@ -106,6 +109,8 @@ nav
 		font-weight: normal
 		font-size: 14px
 		color: $my-color-white
+	.xs_visible
+		display: none
 
 .promo
 	min-height: 850px
