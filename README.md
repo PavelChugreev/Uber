@@ -2,7 +2,7 @@
 
 ### [Стать водителем UBER](https://pavelchugreev.github.io/Uber/)
 
-![Project preview](./img/readme.gif)
+![Project preview](./src/img/readme.gif)
 
 ### About project:
 * Одностраничный сайт партнерской программы для водителей
